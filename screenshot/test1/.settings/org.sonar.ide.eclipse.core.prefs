@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+extraProperties=sonar.jdbc.password\=sonar\r\nsonar.jdbc.username\=sonar\r\nsonar.jdbc.url\=jdbc\:h2\:tcp\://ubuntu-sonarqube\:9092/sonar\r\nsonar.host.url\=http\://ubuntu-sonarqube\:9000
+projectKey=org.offroy.selenium\:test1
+serverUrl=http\://ubuntu-sonarqube\:9000
+version=2
