@@ -24,7 +24,7 @@ public class SampleJUnitTest extends JUnitTestBase {
 	}
 
 	@Test
-	public void testHomePageHasAHeader() {
+	public void testPageScreenshot() {
 		driver.get(baseUrl);
 		WebElement searchbox = driver.findElement(By.name("q"));
 
