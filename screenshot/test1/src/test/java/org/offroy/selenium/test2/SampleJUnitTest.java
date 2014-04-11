@@ -7,20 +7,15 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 import org.offroy.selenium.test1.JUnitTestBase;
-import org.offroy.selenium.test1.pages.HomePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.seleniumscreensnapper.SeleniumScreenSnapper;
 
 public class SampleJUnitTest extends JUnitTestBase {
 
-	private HomePage homepage;
-
 	@Before
 	public void initPageObjects() {
-		homepage = PageFactory.initElements(driver, HomePage.class);
 	}
 
 	@Test
